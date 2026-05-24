@@ -6,7 +6,7 @@ function validarBienvenida(event){
     let nombre = document.getElementById("input-nombre").value;
     nombre = nombre.trim();
     
-    if(nombre === ""){
+    if(nombre === "" || nombre.length <= 2){
         alert("Ingrese un nombre valido.");
         return;
     }

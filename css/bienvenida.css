@@ -9,7 +9,7 @@ body{
     background-color: rgb(252, 250, 251);
     height: 100vh;
     color: rgb(243, 243, 243);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Inter,Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,14 +43,12 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* box-shadow: ; */
 }
 
 #input-nombre{
     width: 100%;
     padding: 15px;
     font-size: 1rem;
-    font-weight: 500;
     border-radius: 5px;
     border: none;
 }
@@ -85,6 +83,7 @@ body{
     width: 100%;
     padding: 10px 0;
     text-align: center;
-    margin-top: auto;
+    position: absolute;
+    bottom: 0;
 }
 
