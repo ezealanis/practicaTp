@@ -8,7 +8,6 @@ function validarBienvenida(event){
     
     if(nombre === ""){
         alert("Ingrese un nombre valido.");
-        console.log(`Nombre "${nombre}" no es valido`);
         return;
     }
 
