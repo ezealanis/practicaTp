@@ -5,11 +5,13 @@
 }
 
 body{
+    min-height: 100vh;
     background-color: rgb(252, 250, 251);
     height: 100vh;
     color: rgb(243, 243, 243);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -17,7 +19,7 @@ body{
 /* TARJETA DE BIENVENIDA */
 
 .tarjeta-bienvenida{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(49, 49, 49);
     width: 90%;
     max-width: 500px;
     display: flex;
@@ -29,6 +31,7 @@ body{
     text-align: center;
     border-radius: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;
 }
 
 .tarjeta-bienvenida h2{
@@ -40,6 +43,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    /* box-shadow: ; */
 }
 
 #input-nombre{
@@ -51,8 +55,14 @@ body{
     border: none;
 }
 
+#input-nombre:focus{
+    border-color: rgb(139, 46, 139);
+    box-shadow: 0 0 0 3px rgba(139, 46, 139);
+}
+
 .btn-ingresar{
     background-color: rgb(139, 46, 139);
+    width: 100%;
     color: white;
     font-weight: bold;
     padding: 10px 20px;
@@ -64,6 +74,17 @@ body{
 .btn-ingresar:active{
     background-color: rgb(104, 34, 104);
     color: rgb(206, 206, 206);
+    transform: scale(0.97);
 }
 
+
+/* FOOTER */
+
+.contenedor-footer{
+    background-color: rgb(49, 49, 49);
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+}
 
