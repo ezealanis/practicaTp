@@ -6,7 +6,7 @@
 
 body{
     min-height: 100vh;
-    background-color: rgb(252, 250, 251);
+    background-color: rgb(49, 49, 49);
     color: rgb(243, 243, 243);
     font-family: Inter,Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
@@ -18,16 +18,21 @@ body{
 /* TARJETA DE BIENVENIDA */
 
 .tarjeta-bienvenida{
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(66, 66, 66);
     width: 90%;
     max-width: 500px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 30px;
     padding: 50px 20px;
     text-align: center;
     border-radius: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.tarjeta-bienvenida img{
+    max-width: 70%;
 }
 
 .tarjeta-bienvenida h2{
@@ -76,7 +81,7 @@ body{
 /* FOOTER */
 
 .contenedor-footer{
-    background-color: rgb(49, 49, 49);
+    background-color:  rgb(66, 66, 66);
     width: 100%;
     padding: 10px 0;
     text-align: center;
