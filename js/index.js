@@ -144,8 +144,8 @@ async function obtenerProductos() {
                 <div class="info-compra">
                     <h3 class="precio">$ ${prod.price}</h3>
                     <div class="contenedor-botones">
-                        <button class="boton-compra">+</button>
-                        <button class="boton-compra">-</button>
+                        <button class="boton-sumar">+</button>
+                        <button class="boton-restar">-</button>
                     </div>
                 </div>
             </div>`;

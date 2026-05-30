@@ -113,7 +113,8 @@ header{
 
 .info-producto h3{
     display: -webkit-box;
-    -webkit-line-clamp: 2;          /* Máximo 3 renglones de texto */
+    -webkit-line-clamp: 2;  
+    line-clamp: 2;        /* Máximo 3 renglones de texto */
     -webkit-box-orient: vertical;  
     overflow:hidden;            /* Esconde lo que sobra */
     text-overflow: ellipsis;  
@@ -122,7 +123,8 @@ header{
 
 .info-producto p{
     display: -webkit-box;
-    -webkit-line-clamp: 4;          /* Máximo 3 renglones de texto */
+    -webkit-line-clamp: 4;  
+    line-clamp: 4;        /* Máximo 3 renglones de texto */
     -webkit-box-orient: vertical;  
     overflow: hidden;               /* Esconde lo que sobra */
     text-overflow: ellipsis;        /* Agrega los "..." automáticamente */
@@ -142,10 +144,23 @@ header{
     padding: 15px;
 }
 
-.boton-compra{
-    width: 70px;
+.boton-sumar{
+    width: 50px;
     height: 20px;
-    /* margin-right: 10px; */
+    border:  none;
+    background-color: rgb(208, 255, 226);
+    font-weight: bold;
+    font-size: 1rem;
+    /* text-align: center; */
+}
+
+.boton-restar{
+    width: 50px;
+    height: 20px;
+    border: none;
+    background-color: rgb(255, 205, 205);
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 /* FOOTER */
