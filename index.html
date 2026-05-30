@@ -1,58 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenido a TP INTEGRADOR</title>
+    <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <script src="./js/index.js" defer></script>
-    <title>TP Integrador</title>
-</head>
-<body>
-    
-    <header>
-        <div class="contenedor-header">
-            <div class="contenedor-logo">
-                <img src="./assets/logoPruebaTpIntegrador.png" alt="Logo de la pagina">
-                <h1 class="titulo-logo">TP Integrador</h1>
-            </div>
-            <nav>
-                <ul class="lista-header">
-                    <li><a href="#" class="nav-link">Prueba0</a></li>
-                    <li><a href="#" class="nav-link">Prueba1</a></li>
-                    <li><a href="#" class="nav-link">Prueba2</a></li>
-                    <li><a href="#" class="nav-link">Prueba3</a></li>
-                </ul>
-            </nav>
-        </div>        
-    </header>
+    <script src="/js/index.js" defer></script>
+  </head>
+  <body>
 
-    <div id="contenedor-saludo">
-        <p>Bienvenido a la tienda, <span id="usuario">Usuario</span></p>
-    </div>
-        
 
-    <main>
-        <section id="contenedor-productos">
-            <!-- <div class="card-producto">
-                <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png" alt="Imagen producto">
-                <div class="info-producto">
-                    <h2>Mens Cotton Jacket</h2>
-                    <p>great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors.</p>
-                </div>
-                <div class="info-compra">
-                    <h3 class="precio">$55.99</h3>
-                    <div class="contenedor-botones">
-                        <button class="boton-compra">+</button>
-                        <button class="boton-compra">-</button>
-                    </div>
-                </div>
-            </div> -->
-        </section>
-    </main>
+    <section class="tarjeta-bienvenida">
+
+      <img src="./assets/logoPruebaTpIntegrador.png" alt="Logo de la pagina">
+
+      <h2>Bienvenido a TP INTEGRADOR</h2>
+
+      <form id="form-ingreso">
+        <label for="input-nombre">Por favor, ingrese su nombre para continuar:</label>
+        <input type="text" id="input-nombre" placeholder="Ingrese su nombre..." required>
+        <div>
+            <button type="submit" class="btn-ingresar">Continuar</button>       
+        </div>
+      </form>
+    </section>
 
     <footer class="contenedor-footer">
       <p>Creado por mi 🥳</p>
     </footer>
-</body>
+
+  </body>
 </html>
