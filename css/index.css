@@ -28,7 +28,7 @@ header{
 }
 
 .contenedor-header{
-    max-width: 1200px;
+    max-width: 1440px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -38,9 +38,15 @@ header{
 }
 
 .contenedor-logo{
+    /* width: 500px; */
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+.contenedor-logo img{
+    height: 70px;
+    object-fit: contain;
 }
 
 /* NAV DEL HEADER */
@@ -78,7 +84,7 @@ header{
 /* MAIN */
 
 #contenedor-productos{
-    max-width: 1200px;
+    max-width: 1440px;
     /* background-color: bisque; */
     margin-top: 20px;
     gap: 20px;
@@ -97,8 +103,6 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* gap: 25px; */
-    /* padding: 15px; */
 }
 
 .info-producto{
