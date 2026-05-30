@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+:root{
+    --bg-color:rgb(49, 49, 49);
+    --bg-section:rgb(66, 66, 66);
+    --color-secundario:rgb(139, 46, 139);
+}
+
 body{
     min-height: 100vh;
-    background-color: rgb(49, 49, 49);
-    color: rgb(243, 243, 243);
+    background-color: var(--bg-color);
+    color: white;
     font-family: Inter,Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
@@ -18,7 +24,7 @@ body{
 /* TARJETA DE BIENVENIDA */
 
 .tarjeta-bienvenida{
-    background-color: rgb(66, 66, 66);
+    background-color: var(--bg-section);
     width: 90%;
     max-width: 500px;
     display: flex;
@@ -56,12 +62,12 @@ body{
 }
 
 #input-nombre:focus{
-    border-color: rgb(139, 46, 139);
-    box-shadow: 0 0 0 3px rgba(139, 46, 139);
+    border-color: var(--color-secundario);
+    box-shadow: 0 0 0 3px var(--color-secundario);
 }
 
 .btn-ingresar{
-    background-color: rgb(139, 46, 139);
+    background-color: var(--color-secundario);
     width: 100%;
     color: white;
     font-weight: bold;
@@ -81,7 +87,7 @@ body{
 /* FOOTER */
 
 .contenedor-footer{
-    background-color:  rgb(66, 66, 66);
+    background-color: var(--bg-section);
     width: 100%;
     padding: 10px 0;
     text-align: center;
