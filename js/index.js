@@ -12,7 +12,7 @@ function validarBienvenida(event){
     }
 
     localStorage.setItem("nombreUsuario", nombre);
-    window.location.href = "principal.html";
+    window.location.href = "/principal.html";
 }
 
 formulario.addEventListener("submit", validarBienvenida);
